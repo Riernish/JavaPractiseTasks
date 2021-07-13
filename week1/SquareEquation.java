@@ -82,6 +82,7 @@ public class SquareEquation {
             oneSolution = true;
         }
         else {
+            // a != 0 here
             Discriminant object = new Discriminant(a, b, c);
             double d = object.getAnswer();
             if (Double.isNaN(d)) {
@@ -134,11 +135,15 @@ public class SquareEquation {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //arr uses to make tests faster
+        //and to have more informative output
         int[] arr = new int[] {0, 0, 0};
         SquareEquation exp = new SquareEquation(arr[0], arr[1], arr[2]);
+        
         String inputEquation = arr[0] + "x^2 + (" + arr[1] 
                 + ")x + (" + arr[2] + ") = 0";
         System.out.println(inputEquation);
+        
         try {
             exp.solve();
             System.out.println(exp.toString());
