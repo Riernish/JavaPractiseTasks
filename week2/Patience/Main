@@ -1,0 +1,23 @@
+
+package week2.patience;
+
+/**
+ *
+ * @author Илья
+ */
+
+
+
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Patience test = new PatienceImpl();
+        for (int i = 0; i < 7; i++) {
+            test.hey();
+        }
+    }
+    
+}
