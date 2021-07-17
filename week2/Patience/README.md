@@ -7,4 +7,4 @@ Task description:
 
 Output:
 ---
-![program output:]
+![program output:](https://github.com/Riernish/JavaPractiseTasks/blob/main/week2/Patience/result.png)
