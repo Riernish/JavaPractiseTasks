@@ -5,6 +5,8 @@ Task description:
 2. prints "You can stop it now..." after
 **Interface should be implemented in PatienceImpl
 
+
+
 Output:
 ---
 ![program output:](https://github.com/Riernish/JavaPractiseTasks/blob/main/week2/Patience/result.png)
