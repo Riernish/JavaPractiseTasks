@@ -4,3 +4,4 @@ Task:
 
 Output:
 ----
+![](https://github.com/Riernish/JavaPractiseTasks/blob/main/week4/CalendarFormer/result.png)
