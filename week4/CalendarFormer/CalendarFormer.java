@@ -22,6 +22,14 @@ public class CalendarFormer {
      * @param stringDate "year month day\nhours minutes"
      * @throws java.text.ParseException
      */
+//    public CalendarFormer(String stringDate) {
+//        String[] splittedDate = stringDate.split("[\\s]");
+//        calendar = new GregorianCalendar(Integer.decode(splittedDate[0]), 
+//            Integer.decode(splittedDate[1]), Integer.decode(splittedDate[2]));
+//        calendar.set(Calendar.DAY_OF_MONTH, Integer.decode(splittedDate[2]));
+//        calendar.set(Calendar.HOUR, Integer.decode(splittedDate[3]));
+//        calendar.set(Calendar.MINUTE, Integer.decode(splittedDate[4]));
+//    }
     public CalendarFormer(String stringDate) throws ParseException {
         SimpleDateFormat formatter = new SimpleDateFormat("y MM dd\nHH mm", Locale.ENGLISH);
         date = formatter.parse(stringDate);
@@ -36,6 +44,16 @@ public class CalendarFormer {
 
     public Date getDate() {
         return date;
+    }
+
+    @Override
+    public String toString() {
+        return date.toString();
+    }
+    
+    public String toFormatString(String format) {
+        SimpleDateFormat formatter = new SimpleDateFormat(format, Locale.ENGLISH);
+        return formatter.format(date);
     }
     
 }
