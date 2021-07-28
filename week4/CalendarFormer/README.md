@@ -3,6 +3,8 @@ Task:
 ![](https://github.com/Riernish/JavaPractiseTasks/blob/main/week4/CalendarFormer/task.png)
 ![image](https://github.com/Riernish/JavaPractiseTasks/blob/main/week4/CalendarFormer/add_task.png)
 
+(Объединены задания 1 и 2)
+
 Output:
 ----
 ![](https://github.com/Riernish/JavaPractiseTasks/blob/main/week4/CalendarFormer/result.png)
