@@ -4,6 +4,6 @@ Task:
 Result:
 ---
 
-**Output for given strings:
+**Output for given strings:** 
 
 ![image](https://user-images.githubusercontent.com/57988144/127769842-dfeb5764-c1e0-4004-a259-6fe2acbb79db.png)
